@@ -1,0 +1,5 @@
+<body><h1>Registro Exitoso</h1>
+					<p>Ahora debes activar tu cuenta en el siguiente link:</p>
+					<p><a href='http://youhost/app/index.php?action=processactivation&e=45189889a5fad518fea1aaf7eee92eeb165fba37&c=8839beffce4531374b3d5201f29bf919a6b566a9'>Activa tu cuenta:</a></p>
+					<p>O tambien puedes usar el siguiente codigo de activacion: kgfblv</p>
+					</body>
