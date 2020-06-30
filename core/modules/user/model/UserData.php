@@ -1,6 +1,6 @@
 <?php
 class UserData {
-	public static $tablename = "userd";
+	public static $tablename = "user";
 
 
 	public function Userdata(){
