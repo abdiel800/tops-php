@@ -35,7 +35,11 @@ class Database {
 		$dbopts = parse_url(getenv('DATABASE_URL'));
 
 		$this->user=$dbopts["user"];
-        $this->driver = 'pgsql';$this->password=$dbopts["pass"];$this->host=$dbopts["host"];$this->port=$dbopts["port"];$this->ddbb=ltrim($dbopts["path"],'/';
+        $this->driver = 'pgsql';
+        $this->password=$dbopts["pass"];
+        $this->host=$dbopts["host"];
+        $this->port=$dbopts["port"];
+        $this->ddbb=ltrim($dbopts["path"],'/');
 	}
 
 	function connect(){
