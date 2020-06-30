@@ -1,10 +1,11 @@
 <?php
-/*
+
 class Database {
 	public static $db;
 	public static $con;
 	function Database(){
-		$this->user="root";$this->pass="";$this->host="localhost";$this->ddbb="topbd";
+		//$this->user="root";$this->pass="";$this->host="localhost";$this->ddbb="topbd";
+		$this->user="u0mzpo7rwxqtav9s";$this->pass="k1aCRG7eC1rTDsYIJdNS";$this->host="bonycl0x1nrrxflm8itd-mysql.services.clever-cloud.com";$this->ddbb="bonycl0x1nrrxflm8itd";
 	}
 
 	function connect(){
@@ -26,8 +27,8 @@ class Database {
 	
 }
 
-*/
 
+/*
 class Database {
 	public static $db;
 	public static $con;
@@ -60,6 +61,6 @@ class Database {
 	}
 	
 }
-
+*/
 
 ?>
