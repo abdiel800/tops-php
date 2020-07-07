@@ -165,36 +165,41 @@ PostsData::addView($_GET['post']);
                             <hr class="invis1">-->
 <!-------------------------------IMPORTANTE - SOBRE EL AUTOR, NO BORRAR---------------------------->
 
+
+                    <?php 
+                        $postsSug = PostsData::getAllPostFiltered($post->category, '', $post->postID, 0, 2);
+                        if (count($postsSug)>0) { ?>
                             <div class="custombox clearfix">
                                 <h4 class="small-title">Tambien te podría interesar</h4>
                                 <div class="row">
-
-                                    <?php $postsSug = PostsData::getAllPostFiltered($post->category, '', $post->postID, 0, 2); 
-                                    foreach ($postsSug as $ps) { ?>
                                          
-                                    <div class="col-lg-6">
-                                        <div class="blog-box">
-                                            <div class="post-media">
-                                                <a href="./?view=top&post=<?php echo $ps->postID ?>" title="">
-                                                    <img src="res/upload/788x443/<?php echo $ps->imageName ?>" alt="" class="img-fluid">
-                                                    <div class="hovereffect">
-                                                        <span class=""></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="blog-meta">
-                                                <h4><a href="./?view=top&post=<?php echo $ps->postID ?>" title=""><?php echo $ps->title ?></a></h4>
-                                                <small><a href="blog-category-01.html" title=""><?php echo $ps->category ?></a></small>
-                                                <small><a href="blog-category-01.html" title=""><?php echo $ps->postDate2 ?></a></small>
+                                    <?php    foreach ($postsSug as $ps) { ?>
+                                             
+                                        <div class="col-lg-6">
+                                            <div class="blog-box">
+                                                <div class="post-media">
+                                                    <a href="./?view=top&post=<?php echo $ps->postID ?>" title="">
+                                                        <img src="res/upload/788x443/<?php echo $ps->imageName ?>" alt="" class="img-fluid">
+                                                        <div class="hovereffect">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="blog-meta">
+                                                    <h4><a href="./?view=top&post=<?php echo $ps->postID ?>" title=""><?php echo $ps->title ?></a></h4>
+                                                    <small><a href="blog-category-01.html" title=""><?php echo $ps->category ?></a></small>
+                                                    <small><a href="blog-category-01.html" title=""><?php echo $ps->postDate2 ?></a></small>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <?php } ?>
+                                    <?php 
+                                            } 
+                                    ?>
 
                                 </div>
                             </div>
-
+                        <?php } ?>
                             <hr class="invis1">
                         
 

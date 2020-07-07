@@ -11,6 +11,7 @@ if (isset($_GET['post'])) {
 <div class="container">
 		<h2>Nueva Publicación</h2>
 		<form method="POST" action="<?php if(!empty($post->postID)){ echo './?module=user&action=editpost'; }else{ echo './?module=user&action=newpost'; } ?>">
+			<label><?php if(!empty($post->postID)) echo "ID: ".$post->postID; ?></label>
 			<input type="hidden" name="txtPostID" value="<?php if(!empty($post->postID)) echo $post->postID; ?>">
 		  <div class="row">
 		    <div class="col-md-4 form-group">

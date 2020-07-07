@@ -89,7 +89,6 @@ if (isset($_GET['category']) && !isset($_GET['title'])) {
                                     <script type="text/javascript">alert(<?php echo $post->title; ?>);</script>
                                     <div class="blog-meta big-meta col-md-8">
                                         <h4><a href="?view=top&post=<?php echo $post->postID ?>" title=""><?php echo $post->title; ?></a></h4>
-                                        <p>spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam </p>
                                         <small class="firstsmall"><a class="bg-orange" href="./?view=search&category=<?php echo $post->category ?>" title=""><?php echo $post->category ?></a></small>
                                         <small><a title=""><?php echo $post->postDate2 ?></a></small>
                                         <small><a title=""><?php echo $post->username ?></a></small>

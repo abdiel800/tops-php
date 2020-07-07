@@ -6,7 +6,7 @@ $lastPost = PostsData::getLast();
 $penultimatePost = PostsData::getPenultimate();
 
 //Paginacion
-$postByPage = 5;
+$postByPage = 2;
 
 if (isset($_GET['p']) && !is_numeric($_GET['p'])) {
     Core::redir('?view=error404');
@@ -109,7 +109,6 @@ $AllpostsByPage = PostsData::getAllByPage($startPage, $postByPage);
                                     <script type="text/javascript">alert(<?php echo $post->title; ?>);</script>
                                     <div class="blog-meta big-meta col-md-8">
                                         <h4><a href="?view=top&post=<?php echo $post->postID ?>" title=""><?php echo $post->title; ?></a></h4>
-                                        <p>spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam spam </p>
                                         <small class="firstsmall"><a class="bg-orange" href="./?view=search&category=<?php echo $post->category ?>" title=""><?php echo $post->category ?></a></small>
                                         <small><?php echo $post->postDate2 ?></small>
                                         <small><?php echo $post->username ?></small>
@@ -144,7 +143,7 @@ $AllpostsByPage = PostsData::getAllByPage($startPage, $postByPage);
                             </div><!-- end page-wrapper -->
 
                             <hr class="invis">
-
+<br><br><br><br><br><br>
                         <div class="row">
                             <div class="col-md-12">
                                 <nav aria-label="Page navigation">

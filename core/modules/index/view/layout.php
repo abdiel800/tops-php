@@ -117,10 +117,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="?view=search">Buscar</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="?module=user">Usuarios</a>
-                            </li>
+
                         </ul>
+                        <li class="nav-item">
+                                <a href="?module=user" class="nav-link">
+                                    <i class="fa fa-user"></i>
+                                </a>
+                        </li>
                     </div>
                 </nav>
             </div><!-- end container-fluid -->
@@ -163,7 +166,7 @@
                                 <ul>
                                     <?php 
                                     
-                                        for ($i=0; $i < 3; $i++) { 
+                                        for ($i=0; $i < 4; $i++) { 
                                             echo '<li><a href="?view=search&category='.$categories[$i]->category.'">'.$categories[$i]->category .'<span>'.$categories[$i]->numPostByCategory .'</span></a></li>';
                                         }
 
