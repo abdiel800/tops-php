@@ -57,12 +57,12 @@
                     </button>
 <!--
                     <a class="navbar-brand" href="tech-index.html"><img src="res/images/version/tech-logo.png" alt=""></a>-->
-                    <a class="navbar-brand" href="index.php" style="padding-top: 10px; padding-bottom: 15px;">TECNO<b>TOPS</b></a>
+                    <a class="navbar-brand" href="./" style="padding-top: 10px; padding-bottom: 15px;">TECNO<b>TOPS</b></a>
                     
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">Inicio</a>
+                                <a class="nav-link" href="./">Inicio</a>
                             </li>
                             <li class="nav-item dropdown has-submenu menu-large hidden-md-down hidden-sm-down hidden-xs-down">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Por Categoría</a>
@@ -142,7 +142,7 @@
                     <div class="col-lg-7">
                         <div class="widget">
                             <div class="footer-text text-left">
-                                <a href="index.php" style="font-size: 30px">TECNO<b>TOPS</b></a>
+                                <a href="./" style="font-size: 30px">TECNO<b>TOPS</b></a>
                                 <p>Un sitio para compartir los mejores tops y esas ondas</p>
                                 <!-- SOCIAL -->
                                 <div class="social">

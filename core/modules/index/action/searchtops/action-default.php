@@ -2,10 +2,6 @@
 
 if (isset($_POST)) {
 
-	//echo $_POST['actualCategory'];
-	//echo $_POST['selectCategory']; 
-	//echo $_POST['textTitle'];
-
 	$actualCategory = $_POST['actualCategory'];
 	$selectCategory = $_POST['selectCategory']; 
 	$textTitle = $_POST['textTitle'];
@@ -19,7 +15,7 @@ if (isset($_POST)) {
 	}
 	
 }else{
-	Core::redir("index.php");
+	Core::redir("./");
 }
 
 

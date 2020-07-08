@@ -21,8 +21,8 @@ PostsData::addView($_GET['post']);
                         <div class="page-wrapper">
                             <div class="blog-title-area text-center">
                                 <ol class="breadcrumb hidden-xs-down">
-                                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="index.php">Tops</a></li>
+                                    <li class="breadcrumb-item"><a href="./">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="./">Tops</a></li>
                                     <li class="breadcrumb-item active"><?php echo $post->title ?></li>
                                 </ol>
 
@@ -61,7 +61,7 @@ PostsData::addView($_GET['post']);
                                 <!-- TAGS
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a href="#" title=""><?php echo $post->tags ?></a></small>
+                                    <small><a href="#" title=""><?php //echo $post->tags ?></a></small>
                                     <small><a href="#" title="">lifestyle</a></small>
                                     <small><a href="#" title="">colorful</a></small>
                                     <small><a href="#" title="">trending</a></small>
