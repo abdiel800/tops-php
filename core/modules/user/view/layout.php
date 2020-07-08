@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Sistema de Registro, Login, Recuperacion y Administracion | RLRA</title>
+    <title>Login - TecnoTops</title>
     <link rel="stylesheet" type="text/css" href="res/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="res/font-awesome/css/font-awesome.min.css">
 
