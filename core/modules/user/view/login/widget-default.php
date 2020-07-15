@@ -16,11 +16,11 @@ if(isset($_SESSION["user_id"]))
 		<form role="form" method="post" action="./?module=user&action=processlogin">
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
-    <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electronico">
+    <input type="text" name="email" class="form-control" id="exampleInputEmail1">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-block btn-default">Acceder</button>
 <br> <!--<a href="./?module=user&view=recover">Olvide mi contrase&ntilde;a ...</a>-->
