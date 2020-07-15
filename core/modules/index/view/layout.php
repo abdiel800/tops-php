@@ -119,11 +119,11 @@
                             </li>
 
                         </ul>
-                        <li class="nav-item">
+                        <div class="nav-item">
                                 <a href="?module=user" class="nav-link">
                                     <i class="fa fa-user"></i>
                                 </a>
-                        </li>
+                        </div>
                     </div>
                 </nav>
             </div><!-- end container-fluid -->
